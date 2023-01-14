@@ -8,8 +8,8 @@ const Header = () => {
     <header>
       <nav>
         <div className="left-nav">
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
+          <Link to="/">Zach Sultan</Link>
+          <Link to="/about">About Zach</Link>
         </div>
         <div className="right-nav">
           <button onClick={() => setOpen(!isOpen)}>
@@ -18,10 +18,13 @@ const Header = () => {
           {isOpen && (
             <ul>
               <li>
+                <Link to="/about">About Zach</Link>
+              </li>
+              <li>
                 <Link to="/contact">Contact</Link>
               </li>
               <li>
-                <Link to="/services">Services</Link>
+                <Link to="/about">Projects</Link>
               </li>
               <li>
                 <Link to="/blog">Blog</Link>
