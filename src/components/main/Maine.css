@@ -1,3 +1,13 @@
 .zach {
   font-size: 100px;
 }
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.description {
+  font-style: italic;
+}

@@ -10,7 +10,7 @@ const Header = () => {
     <header>
       <nav>
         <div className="left-nav">
-          <Link to="/">Zach Sultan</Link>
+          <Link to="/contact">Contact</Link>
         </div>
         <div className="right-nav">
           <button className="dropdown" onClick={() => setOpen(!isOpen)}>
@@ -19,10 +19,10 @@ const Header = () => {
           {isOpen && (
             <ul>
               <li className="about-button">
-                <Link to="/about">About Zach</Link>
+                <Link to="/about">About </Link>
               </li>
               <li className="contact-button">
-                <Link to="/contact">Contact</Link>
+                <Link to="/contact">Goals</Link>
               </li>
               <li className="projects-button">
                 <Link to="/about">Projects</Link>

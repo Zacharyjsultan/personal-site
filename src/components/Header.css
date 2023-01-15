@@ -6,10 +6,14 @@
   border: none;
   cursor: pointer;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 
 .dropdown:hover {
   background-color: #0966bd;
+}
+
+div.right-nav {
+  background-color: #d7dfe7;
 }
