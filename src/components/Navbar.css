@@ -1,0 +1,10 @@
+.dropdown {
+  display: flex;
+  justify-content: flex-start;
+  margin: 3vw;
+}
+
+.dropdown-buttons {
+  display: flex;
+  justify-content: center;
+}
