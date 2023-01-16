@@ -1,13 +1,37 @@
-import "./App.css";
+// import { Router } from "react-router-dom";
+// import "./App.css";
 
+// import Header from "./Components/Header";
+// import Portfolio from "./Components/Portfolio";
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <Router>
+//         {/* <Header />
+//       <Portfolio /> */}
+//       </Router>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
 import Header from "./Components/Header";
+import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Portfolio />
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        {/* other routes */}
+      </Routes>
     </div>
   );
 }

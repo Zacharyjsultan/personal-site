@@ -14,7 +14,7 @@ const Navbar = () => {
         {isOpen && (
           <ul className="dropdown-buttons">
             <li className="about-button">
-              <Link to="/about">About </Link>
+              <Link to="/home">About</Link>
             </li>
             <li className="projects-button">
               <Link to="/portfolio">Portfolio</Link>
