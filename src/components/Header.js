@@ -1,3 +1,4 @@
+import { Button } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -10,7 +11,7 @@ const Header = () => {
       <header>
         <div className="header-nav">
           <Link to="/home" className="home-button">
-            <button>Home</button>
+            <Button variant="outlined">Home</Button>
           </Link>
 
           <a
@@ -19,7 +20,7 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button>Contact</button>
+            <Button variant="outlined">Contact</Button>
           </a>
         </div>
       </header>

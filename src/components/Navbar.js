@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import { Button } from "@mui/material";
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
@@ -8,9 +9,13 @@ const Navbar = () => {
     <nav>
       <div className="left-nav"></div>
       <div className="right-nav">
-        <button className="dropdown" onClick={() => setOpen(!isOpen)}>
+        <Button
+          variant="contained"
+          className="dropdown"
+          onClick={() => setOpen(!isOpen)}
+        >
           <i className="fa fa-bars"></i>Menu
-        </button>
+        </Button>
         {isOpen && (
           <ul className="dropdown-buttons">
             <li className="about-button">
