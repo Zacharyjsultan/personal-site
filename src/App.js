@@ -1,7 +1,8 @@
 import "./App.css";
-import Header from "./components/Header";
 
-import Portfolio from "./components/main/Main";
+import Header from "./Components/Header";
+
+import Portfolio from "./Components/main/Main";
 
 function App() {
   return (

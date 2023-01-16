@@ -1,19 +1,6 @@
-.dropdown {
-  background-color: #000000;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+a {
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.dropdown:hover {
-  background-color: #0966bd;
-}
-
-div.right-nav {
-  background-color: #d7dfe7;
+  justify-content: flex-end;
+  margin-right: 5vw;
+  padding-top: 2vw;
 }
