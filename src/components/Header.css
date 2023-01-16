@@ -1,6 +1,6 @@
-a {
+.header-nav {
   display: flex;
-  justify-content: flex-end;
-  margin-right: 5vw;
-  padding-top: 2vw;
+  justify-content: space-between;
+  margin: 3vw;
+  padding: 1vw;
 }

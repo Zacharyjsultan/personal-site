@@ -19,6 +19,7 @@
 
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import About from "./Components/About";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
@@ -30,7 +31,7 @@ function App() {
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        {/* other routes */}
+        <Route path="/about" element={<About />} />
       </Routes>
     </div>
   );

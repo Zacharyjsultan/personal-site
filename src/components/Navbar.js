@@ -14,13 +14,13 @@ const Navbar = () => {
         {isOpen && (
           <ul className="dropdown-buttons">
             <li className="about-button">
-              <Link to="/home">About</Link>
+              <Link to="/about">About</Link>
             </li>
             <li className="projects-button">
               <Link to="/portfolio">Portfolio</Link>
             </li>
             <li className="blog-button">
-              <Link to="/blog">Blog</Link>
+              <Link to="/resume">resume</Link>
             </li>
             <li>
               {" "}
