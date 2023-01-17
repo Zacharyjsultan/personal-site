@@ -10,7 +10,7 @@ const Header = () => {
     <>
       <header>
         <div className="header-nav">
-          <Link to="/home" className="home-button">
+          <Link to="/" className="home-button">
             <Button variant="outlined">Home</Button>
           </Link>
 

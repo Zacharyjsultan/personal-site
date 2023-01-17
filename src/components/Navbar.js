@@ -7,14 +7,13 @@ const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
   return (
     <nav>
-      <div className="left-nav"></div>
       <div className="right-nav">
         <Button
           variant="contained"
           className="dropdown"
           onClick={() => setOpen(!isOpen)}
         >
-          <i className="fa fa-bars"></i>Menu
+          <i className="fa fa-bars"></i> Menu
         </Button>
         {isOpen && (
           <ul className="dropdown-buttons">
@@ -25,7 +24,7 @@ const Navbar = () => {
               <Link to="/portfolio">Portfolio</Link>
             </li>
             <li className="blog-button">
-              <Link to="/resume">resume</Link>
+              <Link to="/resume">Resume</Link>
             </li>
             <li>
               {" "}
