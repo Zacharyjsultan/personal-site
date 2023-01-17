@@ -1,5 +1,7 @@
 # Portfolio
 
+figure out directions
+
 ## Available Scripts
 
 In the project directory, you can run:

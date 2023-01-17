@@ -1,5 +1,5 @@
 import React from "react";
-import "./Maine.css";
+import "./Portfolio.css";
 
 const Portfolio = () => {
   const projects = [

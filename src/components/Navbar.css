@@ -1,0 +1,18 @@
+a {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5vw;
+  padding-top: 2vw;
+}
+
+.right-nav {
+  display: flex;
+  margin-left: 14vw;
+}
+.dropdown-buttons {
+  display: flex;
+}
+
+div.right-nav {
+  margin: 4.2vw;
+}
