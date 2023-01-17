@@ -13,6 +13,7 @@ export default function Footer() {
             alt="little zach"
             className="avatar"
             src={`${process.env.PUBLIC_URL}/Avatar.png`}
+            sx={{ width: 56, height: 56 }}
           />
         </Stack>
       </div>
